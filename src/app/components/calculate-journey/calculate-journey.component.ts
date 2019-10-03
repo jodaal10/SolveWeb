@@ -58,7 +58,7 @@ export class CalculateJourneyComponent implements OnInit {
   saveTextAsFile (data, filename){
     const blob = new Blob([data], { type: 'text/plain' });
     importedSaveAs(blob, filename);
-    alert("yes");
+    alert("Exito: Analisis completado!");
   }  
 
   //Metodo encargado de leer el contenido del archivo de texto.
